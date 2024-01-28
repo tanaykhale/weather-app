@@ -1,0 +1,32 @@
+body{
+    background: rgb(0,36,27);
+    background: linear-gradient(90deg, rgba(0,36,27,1) 0%, rgba(9,109,121,1) 0%, rgba(0,215,255,1) 100%);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 1px;
+    padding: 5px 20px;
+    border-radius: 4px ;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+input{
+    text-align: center;
+    background: transparent ;
+    border: none;
+    border-bottom: 1px solid #000000;
+    
+}
+input::placeholder{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    opacity: 0.5;
+    color: #000000;
+    font-size: large;
+}
+.inputbox{
+    margin-top: 3rem;
+    text-align: center;
+    
+}
